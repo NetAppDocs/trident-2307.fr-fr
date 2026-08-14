@@ -16,6 +16,7 @@ Le https://github.com/NetApp/trident/releases["Pack d'installation Trident"^] in
 
 
 
+[[available-commands-and-options]]
 == Commandes et options disponibles
 
 Pour les informations d'utilisation, exécutez `tridentctl --help`.
@@ -62,6 +63,7 @@ CAUTION: Vous pouvez configurer l'interface REST de Trident pour écouter et uti
 
 
 
+[[create]]
 == `create`
 
 Vous pouvez utiliser le `create` Commande d'ajout d'une ressource à Astra Trident.
@@ -76,6 +78,7 @@ Option disponible :
 
 
 
+[[delete]]
 == `delete`
 
 Vous pouvez exécuter le `delete` Commande de supprimer une ou plusieurs ressources d'Astra Trident.
@@ -95,6 +98,7 @@ Options disponibles :
 
 
 
+[[get]]
 == `get`
 
 Vous pouvez exécuter le `get` Commander pour obtenir une ou plusieurs ressources d'Astra Trident.
@@ -119,6 +123,7 @@ Options disponibles :
 
 
 
+[[images]]
 == `images`
 
 Vous pouvez exécuter le `images` Drapeau pour imprimer un tableau des images de conteneur dont Astra Trident a besoin.
@@ -134,6 +139,7 @@ Alarmes :
 
 
 
+[[import-volume]]
 == `import volume`
 
 Vous pouvez exécuter le `import volume` Commande permettant d'importer un volume existant vers Astra Trident.
@@ -155,6 +161,7 @@ Alarmes :
 
 
 
+[[install]]
 == `install`
 
 Vous pouvez exécuter le `install` Drapeaux pour l'installation d'Astra Trident.
@@ -187,6 +194,7 @@ Alarmes :
 
 
 
+[[logs]]
 == `logs`
 
 Vous pouvez exécuter le `logs` Drapeaux pour imprimer les journaux à partir d'Astra Trident.
@@ -208,6 +216,7 @@ Alarmes :
 
 
 
+[[send]]
 == `send`
 
 Vous pouvez exécuter le `send` Commande permettant d'envoyer une ressource à Astra Trident.
@@ -222,6 +231,7 @@ Option disponible :
 
 
 
+[[uninstall]]
 == `uninstall`
 
 Vous pouvez exécuter le `uninstall` Drapeaux pour désinstaller Astra Trident.
@@ -237,6 +247,7 @@ Alarmes :
 
 
 
+[[update]]
 == `update`
 
 Vous pouvez exécuter le `update` Commandes permettant de modifier une ressource dans Astra Trident.
@@ -251,6 +262,7 @@ Options disponibles :
 
 
 
+[[version]]
 == `version`
 
 Vous pouvez exécuter le `version` indicateurs pour imprimer la version de `tridentctl` Et le service exécutant Trident.

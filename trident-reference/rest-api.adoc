@@ -16,6 +16,7 @@ Pendant link:tridentctl.html["commandes et options tridentctl"] Vous pouvez util
 
 
 
+[[when-to-use-the-rest-api]]
 == Quand utiliser l'API REST
 
 Il est utile pour les installations avancées qui utilisent Astra Trident en tant que binaire autonome dans les déploiements non Kubernetes.
@@ -24,12 +25,14 @@ Avec Astra Trident, qui offre une meilleure sécurité `REST API` est limité à
 
 
 
+[[using-rest-api]]
 == Avec l'API REST
 
 L'API fonctionne comme suit :
 
 
 
+[[get]]
 === `GET`
 
 * `GET <trident-address>/trident/v1/<object-type>`: Affiche tous les objets de ce type.
@@ -38,6 +41,7 @@ L'API fonctionne comme suit :
 
 
 
+[[post]]
 === `POST`
 
 `POST <trident-address>/trident/v1/<object-type>`: Crée un objet du type spécifié.
@@ -48,6 +52,7 @@ L'API fonctionne comme suit :
 
 
 
+[[delete]]
 === `DELETE`
 
 `DELETE <trident-address>/trident/v1/<object-type>/<object-name>`: Supprime la ressource nommée.

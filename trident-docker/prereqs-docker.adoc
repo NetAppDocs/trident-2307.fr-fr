@@ -16,6 +16,7 @@ Vous devez installer et configurer les protocoles requis sur votre hôte avant d
 
 
 
+[[verify-the-requirements]]
 == Vérifier les exigences
 
 * Vérifiez que votre déploiement répond à toutes les link:../trident-get-started/requirements.html["de formation"].
